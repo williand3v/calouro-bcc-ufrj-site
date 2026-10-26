@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sobre — Calouro BCC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Link para pular o menu (acessibilidade) -->
+    <a class="skip" href="#main">Ir para o conteúdo</a>
+    <!-- Aviso: este site é um trabalho de alunos e não é oficial -->
+    <div class="draft">
+      Projeto de disciplina feito por alunos do BCC, não é um site oficial da UFRJ. Confira sempre
+      as informações nas fontes oficiais.
+    </div>
+    <!-- Topo azul: logos, menu e título da página -->
+    <div class="hero small">
+      <div class="topwrap">
+        <header class="top">
+          <div class="lockup">
+            <img
+              class="ufrj"
+              src="img/ufrj-horizontal-negativa-telas.png"
+              alt="UFRJ"
+              width="139"
+              height="84"
+            />
+            <div class="sep" aria-hidden="true"></div>
+            <span class="icbadge"
+              ><img src="img/logo-ic.svg" alt="Instituto de Computação" width="40" height="28"
+            /></span>
+            <div class="unit">Bacharelado em<br />Ciência da Computação</div>
+          </div>
+          <nav class="parts" aria-label="Partes do site">
+            <a href="index.html">Início</a><a href="guia.html">Guia</a
+            ><a href="curso.html">O curso</a><a href="disciplinas.html">Disciplinas</a
+            ><a href="campus.html">Campus</a><a href="sobre.html" aria-current="page">Sobre</a>
+          </nav>
+        </header>
+      </div>
+      <div class="in">
+        <h1>Sobre o projeto</h1>
+        <p class="lead">O que foi feito e como foi feito, com as fontes de cada material.</p>
+      </div>
+    </div>
+    <!-- Conteúdo da página -->
+    <main id="main" class="wrap">
+      <section class="topic" id="projeto">
+        <h2>O projeto</h2>
+        <p>
+          Trabalho da disciplina <b>Habilidades Sociais para o Trabalho (ICP145)</b>, do BCC/UFRJ:
+          prototipar um recurso para ajudar os calouros do curso. O grupo fez este site, que reúne o
+          que o calouro precisa saber em cada fase do semestre. Não é um site oficial da UFRJ nem do
+          Instituto de Computação.
+        </p>
+      </section>
+
+      <section class="topic" id="feito">
+        <h2>O que foi feito</h2>
+        <ul>
+          <li><b>Início:</b> linha do tempo com as 6 fases do semestre.</li>
+          <li><b>Guia:</b> wiki com busca sobre SIGA, inscrição, documentos, bolsas, RU e mais.</li>
+          <li><b>Disciplinas:</b> mapa com todas as matérias do BCC e seus pré-requisitos.</li>
+          <li><b>Campus:</b> ônibus internos, mapas, RUs e bibliotecas.</li>
+          <li><b>Vídeos:</b> vídeos oficiais da UFRJ ligados aos tópicos.</li>
+        </ul>
+      </section>
+
+      <section class="topic" id="como">
+        <h2>Como foi feito</h2>
+        <ol>
+          <li>
+            Das ideias levantadas (wiki, mapa de disciplinas, mapa do campus, linha do tempo e
+            vídeos), o grupo juntou quatro em um só site.
+          </li>
+          <li>
+            Listamos o conteúdo necessário de cada aba e pesquisamos em fontes oficiais da UFRJ.
+          </li>
+          <li>
+            Construímos o site por partes, revendo cada tela, com as cores e a fonte do guia de
+            identidade visual da UFRJ.
+          </li>
+          <li>Testamos os links e o uso no computador e no celular, e publicamos no Vercel.</li>
+        </ol>
+        <p>O site é feito em HTML, CSS e JavaScript simples.</p>
+      </section>
+
+      <section class="topic" id="fontes">
+        <h2>Fontes</h2>
+        <ul>
+          <li>
+            <a href="arquivos/manual-siga-ufrj.pdf" download>Manual do Aluno "Conhecendo o SIGA"</a>
+            (Equipe SIGA UFRJ): fases, inscrição, CRID e documentos.
+          </li>
+          <li>
+            <a
+              href="https://conexao.ufrj.br/2025/03/manual-do-calouro-ufrj-os-primeiros-passos-para-quem-acabou-de-entrar-na-universidade/"
+              target="_blank"
+              rel="noopener"
+              >Manual do Calouro UFRJ</a
+            >
+            (Conexão UFRJ) e
+            <a href="arquivos/guia-pr7-calouros.pdf" download>Guia da PR7 para calouros</a>: bolsas,
+            residência, RU e segurança.
+          </li>
+          <li>
+            <a href="https://ic.ufrj.br/info/grade-curricular-bcc/" target="_blank" rel="noopener"
+              >Grade curricular do BCC</a
+            >
+            (Instituto de Computação): disciplinas e requisitos.
+          </li>
+          <li>
+            <a
+              href="https://prefeitura.ufrj.br/servicos/transporte-integrado/linhas-internas/"
+              target="_blank"
+              rel="noopener"
+              >Linhas internas</a
+            >
+            e
+            <a href="https://prefeitura.ufrj.br/mapas/" target="_blank" rel="noopener">mapas</a> da
+            Prefeitura Universitária.
+          </li>
+          <li>
+            <a
+              href="https://ufrj.br/ensino-e-pesquisa/assistencia-estudantil/restaurantes-universitarios/"
+              target="_blank"
+              rel="noopener"
+              >Página dos RUs</a
+            >
+            e
+            <a
+              href="https://devmobufrj.github.io/BandejApp/#/Informacoes"
+              target="_blank"
+              rel="noopener"
+              >BandejApp</a
+            >: endereços, preços e horários.
+          </li>
+          <li>
+            <a
+              href="https://sibi.ufrj.br/2019/09/17/informacoes-bibliotecas-ciencias-exatas-e-da-terra/"
+              target="_blank"
+              rel="noopener"
+              >SiBI</a
+            >: bibliotecas.
+            <a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a
+            >: pontos do mapa clicável.
+          </li>
+          <li>
+            <a
+              href="https://consuni.ufrj.br/images/Resolucoes/Calendario_academico_2026.pdf"
+              target="_blank"
+              rel="noopener"
+              >Calendário Acadêmico 2026</a
+            >
+            (Conselho Universitário).
+          </li>
+          <li>
+            Vídeos dos canais Siga UFRJ, Coord. Grad. ESS (UFRJ) e Biblioteca do NCE, no YouTube
+            (os vídeos aparecem dentro dos assuntos do Guia e da página Campus).
+          </li>
+          <li>
+            <a href="https://ufrj.br/comunicacao/identidade-visual/" target="_blank" rel="noopener"
+              >Identidade visual da UFRJ</a
+            >: logo, cor e fonte.
+          </li>
+        </ul>
+      </section>
+
+      <section class="topic" id="limites">
+        <h2>Avisos</h2>
+        <ul>
+          <li>
+            As informações foram pesquisadas em <b>outubro de 2026</b> e mudam. Confira sempre nas
+            fontes oficiais.
+          </li>
+          <li>
+            O currículo que vale para você depende do seu ano de ingresso. A grade do site é a de
+            2022.
+          </li>
+          <li>O site ainda não foi testado com calouros de verdade.</li>
+        </ul>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer class="foot">
+      <div class="in foot3">
+        <p class="fl">
+          Fontes: Manual do Aluno (Equipe SIGA UFRJ), site do Instituto de Computação e Prefeitura
+          Universitária. O calendário acadêmico (datas) é publicado pela PR1.
+        </p>
+        <img
+          src="img/ufrj-horizontal-negativa-telas.png"
+          alt="UFRJ"
+          width="139"
+          height="84"
+          loading="lazy"
+        />
+        <p class="fr">
+          <b
+            >Projeto de disciplina (Habilidades Sociais para o Trabalho), feito por alunos do BCC.
+            Não é um site oficial da UFRJ nem do Instituto de Computação.</b
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
